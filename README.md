@@ -24,3 +24,63 @@ docker
 docker-compose
 cron
 Ubuntu
+
+## resources
+google.com
+linkedin.com
+github.com
+
+## blueprint
+As LinkedIn profiles are publicly available we can access them 
+by using google search website: https://google.com/search?q=.
+But that maybe not enough by itself. Google.com has many policies
+that it apply depending on Your location, previous searches and
+many mechanisms that we are not aware of.
+
+Github.com is a website for anyone who work in IT, from there
+we can get information about how much somebody is coding, if the
+person is coding in open source projects, are those projects
+well know to open source community and so on. Github.com has as
+well more detail information about technologies which are
+not the most important when searching for ideal candidates but
+it is something who one must know and that's it.
+
+Github.com is important if You need a person who is professional,
+but if soft skills are equally important maybe other resources
+will be of equal importance too.
+
+Linkedin contains information about employment, recommendations,
+certifications.
+
+At the beginning I thought about using google.com/search as
+start point but this will be a different topic, more things needs
+to be considered when using google.com/search.
+
+So first we use github.com API that is publicly available. Than
+we use information from github.com to find person on linkedin.com. 
+At the end we will try to find extra information by using google
+.com/search
+
+  
+
+### advance use of google search
+As a rule of thumb it is always good to make use of what is
+available out of the box. If You are not familiar with
+google.com search syntax, check those articles:
+1. https://support.google.com/websearch/answer/2466433
+
+Try to find more information about it "Google Search Operators"
+on Your own. **You will need it latter to make real use of this
+tutorial.**
+
+Try this which return developers who possibly know docker and live
+or come from Argentina.
+https://www.google.com/search?q=%3Asite+www.linkedin.com+docker+AND+argentina
+
+## implementation
+
+
+## development
+```bash
+scrapy runspider atscrapy/atscrapy/spiders/google_search_spider.py -a q=""
+```

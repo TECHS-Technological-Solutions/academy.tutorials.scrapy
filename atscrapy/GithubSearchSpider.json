@@ -1,0 +1,270 @@
+[
+  {
+    "image": "",
+    "name": "Micha\u0142 Zieli\u0144ski",
+    "additionalName": "zielmicha",
+    "homeLocation": "Poland",
+    "email": "Signintoviewemail",
+    "url": "https://zielmicha.com",
+    "follows": "",
+    "programmingLanguage": [
+      "Go",
+      "Python",
+      "Nim"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Karol J. Piczak",
+    "additionalName": "karolpiczak",
+    "worksFor": "@WUT-ML",
+    "homeLocation": "Warsaw,Poland",
+    "email": "Signintoviewemail",
+    "url": "http://www.karolpiczak.com",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "Jupyter Notebook"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Ania Warzecha",
+    "additionalName": "aniav",
+    "worksFor": "@streetteam",
+    "homeLocation": "Wroc\u0142aw,Poland",
+    "url": "https://missaniav.com",
+    "twitter": "@aniawarzecha",
+    "follows": "",
+    "programmingLanguage": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "image": "",
+    "name": "\u0141ukasz Langa",
+    "additionalName": "ambv",
+    "homeLocation": "Pozna\u0144,Poland",
+    "email": "Signintoviewemail",
+    "url": "http://lukasz.langa.pl",
+    "follows": "",
+    "programmingLanguage": [
+      "Python"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Patryk Zawadzki",
+    "additionalName": "patrys",
+    "worksFor": "MirumeeSoftware",
+    "homeLocation": "Wroc\u0142aw,Poland",
+    "follows": "",
+    "programmingLanguage": [
+      "TypeScript",
+      "Python",
+      "JavaScript"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Marcin Ulikowski",
+    "additionalName": "elceef",
+    "homeLocation": "Poland",
+    "email": "Signintoviewemail",
+    "url": "https://linkedin.com/in/elceef/",
+    "programmingLanguage": [
+      "Python",
+      "C"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Rafa\u0142 Pito\u0144",
+    "additionalName": "rafalp",
+    "worksFor": "MirumeeSoftware",
+    "homeLocation": "Poland/Wroc\u0142aw",
+    "url": "https://twitter.com/RafalPiton",
+    "follows": "",
+    "programmingLanguage": [
+      "Python"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Julio",
+    "additionalName": "juliocesarfort",
+    "worksFor": "@blazeinfosec",
+    "homeLocation": "Krakow,Poland",
+    "url": "https://www.whatever.io",
+    "programmingLanguage": [
+      "Python",
+      "CSS"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Zbigniew Siciarz",
+    "additionalName": "zsiciarz",
+    "worksFor": "FoldLogic",
+    "homeLocation": "Warsaw,Poland",
+    "url": "https://siciarz.net",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "MATLAB",
+      "Rust",
+      "C++"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Piotr Migda\u0142",
+    "additionalName": "stared",
+    "worksFor": "QuantumFlytrapCEO+ECCGamesAI",
+    "homeLocation": "Warsaw,Poland",
+    "email": "Signintoviewemail",
+    "url": "https://p.migdal.pl",
+    "twitter": "@pmigdal",
+    "programmingLanguage": [
+      "JavaScript",
+      "Jupyter Notebook",
+      "TypeScript",
+      "Python",
+      "Vue"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Mykhailo Poliarush",
+    "additionalName": "poliarush",
+    "worksFor": "http://sdclabs.com",
+    "homeLocation": "Krakow,Poland",
+    "url": "http://sdclabs.com",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "Java"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Wojciech Bederski",
+    "additionalName": "wuub",
+    "worksFor": "wuub.net",
+    "homeLocation": "Warsaw,Poland",
+    "email": "Signintoviewemail",
+    "url": "https://wuub.net",
+    "follows": "",
+    "programmingLanguage": [
+      "Python"
+    ]
+  },
+  {
+    "image": "",
+    "name": "MrKnow",
+    "additionalName": "mrknow",
+    "worksFor": "Filmkodi",
+    "homeLocation": "Poland",
+    "url": "http://filmkodi.com",
+    "programmingLanguage": [
+      "Python"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Mariusz Felisiak",
+    "additionalName": "felixxm",
+    "homeLocation": "Toru\u0144,Poland",
+    "email": "Signintoviewemail",
+    "twitter": "@MariuszFelisiak",
+    "follows": "",
+    "programmingLanguage": [
+      "JavaScript",
+      "Python"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Marcin Kurczewski",
+    "additionalName": "rr-",
+    "worksFor": "@unhaggle@stxnext",
+    "homeLocation": "Poland",
+    "url": "https://sakuya.pl/",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "C++"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Wojtek Porczyk",
+    "additionalName": "woju",
+    "worksFor": "InvisibleThingsLab(@QubesOS@InvisibleThingsLab)",
+    "homeLocation": "Poland",
+    "url": "https://oaza.woju.eu/",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "TeX",
+      "Java",
+      "Vim script"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Micha\u0142 Dobrzanski",
+    "additionalName": "MichalDanielDobrzanski",
+    "worksFor": "Demant",
+    "homeLocation": "Warsaw,Poland",
+    "email": "Signintoviewemail",
+    "programmingLanguage": [
+      "Kotlin",
+      "Python",
+      "Java",
+      "C++"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Mateusz Paprocki",
+    "additionalName": "mattpap",
+    "homeLocation": "Wroc\u0142aw,Poland",
+    "email": "Signintoviewemail",
+    "follows": "",
+    "programmingLanguage": [
+      "JavaScript",
+      "Python",
+      "Scala"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Micha\u0142 Sidor",
+    "additionalName": "michcioperz",
+    "homeLocation": "Warsaw,Poland",
+    "url": "https://michcioperz.com",
+    "twitter": "@Michcioperz",
+    "follows": "",
+    "programmingLanguage": [
+      "Go",
+      "Python",
+      "HTML"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Maciej Szulik",
+    "additionalName": "soltysh",
+    "worksFor": "RedHat,Inc",
+    "homeLocation": "Poland",
+    "follows": "",
+    "programmingLanguage": [
+      "Go",
+      "Python",
+      "HTML"
+    ]
+  }
+]

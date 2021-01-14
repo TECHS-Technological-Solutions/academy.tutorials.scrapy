@@ -56,10 +56,10 @@ At the beginning I thought about using google.com/search as
 start point but this will be a different topic, more things needs
 to be considered when using google.com/search.
 
-So first we use github.com API that is publicly available. Than
+So first we scrape github.com that is publicly available. Than
 we use information from github.com to find person on linkedin.com. 
 At the end we will try to find extra information by using google
-.com/search
+.com/search.
 
   
 
@@ -77,10 +77,26 @@ Try this which return developers who possibly know docker and live
 or come from Argentina.
 https://www.google.com/search?q=%3Asite+www.linkedin.com+docker+AND+argentina
 
+### advance use of github search
+Github has search syntax which allow You to narrow the results.
+1. https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/about-searching-on-github
+2. https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/searching-users
+
+### using linkedin public information
+The problem with linkedin is that it quickly discover that too many
+resources or user information was requested from specific IP and it
+will force You to do some test. The best approach would be to 
+change IP address each time the linkedin test(captcha) is forced.
+
 ## implementation
 
 
 ## development
+##### Run github spider. It will create GithubSearchSpider.json
 ```bash
-scrapy runspider atscrapy/atscrapy/spiders/google_search_spider.py -a q=""
+scrapy runspider atscrapy/spiders/github_search_spider.py -a location=Poland -a language=Python
 ```
+
+##### Run linkedin extraction based on data from GithubSearchSpider.json.
+
+##### Get additional information from google search

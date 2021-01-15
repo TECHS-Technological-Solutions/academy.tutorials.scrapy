@@ -172,3 +172,12 @@ knowing more let me know, we could continue with proxycrawl.com
 https://www.scrapinghub.com/scrapy-cloud/, scrapy-cloud is great because You
 don't need to take care about server and infrastructure, You just write the code for
 spider and scrapy-cloud does the rest.
+
+
+**Disclaimer**: Any code provided in our tutorials is for illustration
+and learning purposes only. We are not responsible for how it is used
+and assume no liability for any detrimental usage of the source code.
+The mere presence of this code on our site does not imply that we
+encourage scraping or scrape the websites referenced in the code and
+accompanying tutorial. The tutorials only help illustrate the
+technique of programming web scrapers for popular internet websites.

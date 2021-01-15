@@ -106,3 +106,12 @@ Below spider will use GithubSearchSpider.json and produce new one GoogleSearchSp
 ```bash
 scrapy runspider ./atscrapy/atscrapy/spiders/google_search_spider.py -a site=www.linkedin.com/in
 ```
+
+
+**Disclaimer**: Any code provided in our tutorials is for illustration
+and learning purposes only. We are not responsible for how it is used
+and assume no liability for any detrimental usage of the source code.
+The mere presence of this code on our site does not imply that we
+encourage scraping or scrape the websites referenced in the code and
+accompanying tutorial. The tutorials only help illustrate the
+technique of programming web scrapers for popular internet websites.

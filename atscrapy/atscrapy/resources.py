@@ -1,26 +1,21 @@
 class WebResource:
     url = None
 
-    parameters = {
-        'type': 'Users',
-        'location': None,
-        'language': None
-    }
+    parameters = None
+    headers = None
+    parameters_join = None
 
-    headers = {
-
-    }
-
-    def __init__(self):
+    def __init__(self, text=""):
         self.__page = 0
         self.limit_page = 2
+        self.text = text
 
     def makeq(self, parameters):
         try:
-            qstr = ''.join(['{0}:{1}+'.format(k, parameters.get(k) or v) for k, v in self.parameters.items()])
+            qstr = ''.join([self.parameters_join.format(k, parameters.get(k) or v) for k, v in self.parameters.items()])
         except (Exception,) as err:
             raise Exception('Wrong usage of WebResource parameters')
-        return qstr
+        return qstr + self.text
 
     @property
     def page_limit_reached(self):
@@ -34,6 +29,19 @@ class WebResource:
 
 class GitHubWebResources(WebResource):
     url = 'https://github.com/search?q={q}&p={p}'
-    headers = {
 
+    parameters = {
+        'type': 'Users',
+        'location': None,
+        'language': None
     }
+    parameters_join = '{0}:{1}+'
+
+
+class GoogleSearchWebResources(WebResource):
+    url = 'https://google.com/search?q={q}&p={p}'
+
+    parameters = {
+        'site': None
+    }
+    parameters_join = ':{0} {1}+'

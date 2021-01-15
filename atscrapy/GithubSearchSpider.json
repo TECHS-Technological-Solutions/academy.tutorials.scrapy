@@ -1,6 +1,139 @@
 [
   {
     "image": "",
+    "name": "\u0141ukasz Langa",
+    "additionalName": "ambv",
+    "homeLocation": "Pozna\u0144,Poland",
+    "email": "Signintoviewemail",
+    "url": "http://lukasz.langa.pl",
+    "follows": "",
+    "programmingLanguage": [
+      "Python"
+    ]
+  },
+  {
+    "image": "",
+    "name": "MrKnow",
+    "additionalName": "mrknow",
+    "worksFor": "Filmkodi",
+    "homeLocation": "Poland",
+    "url": "http://filmkodi.com",
+    "programmingLanguage": [
+      "Python"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Mykhailo Poliarush",
+    "additionalName": "poliarush",
+    "worksFor": "http://sdclabs.com",
+    "homeLocation": "Krakow,Poland",
+    "url": "http://sdclabs.com",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "Java"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Micha\u0142 Dobrzanski",
+    "additionalName": "MichalDanielDobrzanski",
+    "worksFor": "Demant",
+    "homeLocation": "Warsaw,Poland",
+    "email": "Signintoviewemail",
+    "programmingLanguage": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "C++"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Wojtek Porczyk",
+    "additionalName": "woju",
+    "worksFor": "InvisibleThingsLab(@QubesOS@InvisibleThingsLab)",
+    "homeLocation": "Poland",
+    "url": "https://oaza.woju.eu/",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "Java",
+      "Vim script",
+      "TeX"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Mateusz Paprocki",
+    "additionalName": "mattpap",
+    "homeLocation": "Wroc\u0142aw,Poland",
+    "email": "Signintoviewemail",
+    "follows": "",
+    "programmingLanguage": [
+      "JavaScript",
+      "Python",
+      "Scala"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Maciej Szulik",
+    "additionalName": "soltysh",
+    "worksFor": "RedHat,Inc",
+    "homeLocation": "Poland",
+    "follows": "",
+    "programmingLanguage": [
+      "HTML",
+      "Python",
+      "Go"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Zbigniew Siciarz",
+    "additionalName": "zsiciarz",
+    "worksFor": "FoldLogic",
+    "homeLocation": "Warsaw,Poland",
+    "url": "https://siciarz.net",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "C++",
+      "Rust",
+      "MATLAB"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Micha\u0142 Sidor",
+    "additionalName": "michcioperz",
+    "homeLocation": "Warsaw,Poland",
+    "url": "https://michcioperz.com",
+    "twitter": "@Michcioperz",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "HTML",
+      "Go"
+    ]
+  },
+  {
+    "image": "",
+    "name": "Wojciech Bederski",
+    "additionalName": "wuub",
+    "worksFor": "wuub.net",
+    "homeLocation": "Warsaw,Poland",
+    "email": "Signintoviewemail",
+    "url": "https://wuub.net",
+    "follows": "",
+    "programmingLanguage": [
+      "Python"
+    ]
+  },
+  {
+    "image": "",
     "name": "Micha\u0142 Zieli\u0144ski",
     "additionalName": "zielmicha",
     "homeLocation": "Poland",
@@ -8,9 +141,9 @@
     "url": "https://zielmicha.com",
     "follows": "",
     "programmingLanguage": [
-      "Go",
       "Python",
-      "Nim"
+      "Nim",
+      "Go"
     ]
   },
   {
@@ -29,6 +162,19 @@
   },
   {
     "image": "",
+    "name": "Rafa\u0142 Pito\u0144",
+    "additionalName": "rafalp",
+    "worksFor": "MirumeeSoftware",
+    "homeLocation": "Poland/Wroc\u0142aw",
+    "url": "https://twitter.com/RafalPiton",
+    "follows": "",
+    "programmingLanguage": [
+      "Python",
+      "C++"
+    ]
+  },
+  {
+    "image": "",
     "name": "Ania Warzecha",
     "additionalName": "aniav",
     "worksFor": "@streetteam",
@@ -38,33 +184,8 @@
     "follows": "",
     "programmingLanguage": [
       "JavaScript",
-      "CSS",
-      "HTML"
-    ]
-  },
-  {
-    "image": "",
-    "name": "\u0141ukasz Langa",
-    "additionalName": "ambv",
-    "homeLocation": "Pozna\u0144,Poland",
-    "email": "Signintoviewemail",
-    "url": "http://lukasz.langa.pl",
-    "follows": "",
-    "programmingLanguage": [
-      "Python"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Patryk Zawadzki",
-    "additionalName": "patrys",
-    "worksFor": "MirumeeSoftware",
-    "homeLocation": "Wroc\u0142aw,Poland",
-    "follows": "",
-    "programmingLanguage": [
-      "TypeScript",
-      "Python",
-      "JavaScript"
+      "HTML",
+      "CSS"
     ]
   },
   {
@@ -75,19 +196,7 @@
     "email": "Signintoviewemail",
     "url": "https://linkedin.com/in/elceef/",
     "programmingLanguage": [
-      "Python",
-      "C"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Rafa\u0142 Pito\u0144",
-    "additionalName": "rafalp",
-    "worksFor": "MirumeeSoftware",
-    "homeLocation": "Poland/Wroc\u0142aw",
-    "url": "https://twitter.com/RafalPiton",
-    "follows": "",
-    "programmingLanguage": [
+      "C",
       "Python"
     ]
   },
@@ -105,17 +214,15 @@
   },
   {
     "image": "",
-    "name": "Zbigniew Siciarz",
-    "additionalName": "zsiciarz",
-    "worksFor": "FoldLogic",
-    "homeLocation": "Warsaw,Poland",
-    "url": "https://siciarz.net",
+    "name": "Patryk Zawadzki",
+    "additionalName": "patrys",
+    "worksFor": "MirumeeSoftware",
+    "homeLocation": "Wroc\u0142aw,Poland",
     "follows": "",
     "programmingLanguage": [
+      "JavaScript",
       "Python",
-      "MATLAB",
-      "Rust",
-      "C++"
+      "TypeScript"
     ]
   },
   {
@@ -128,48 +235,11 @@
     "url": "https://p.migdal.pl",
     "twitter": "@pmigdal",
     "programmingLanguage": [
+      "Python",
       "JavaScript",
       "Jupyter Notebook",
       "TypeScript",
-      "Python",
       "Vue"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Mykhailo Poliarush",
-    "additionalName": "poliarush",
-    "worksFor": "http://sdclabs.com",
-    "homeLocation": "Krakow,Poland",
-    "url": "http://sdclabs.com",
-    "follows": "",
-    "programmingLanguage": [
-      "Python",
-      "Java"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Wojciech Bederski",
-    "additionalName": "wuub",
-    "worksFor": "wuub.net",
-    "homeLocation": "Warsaw,Poland",
-    "email": "Signintoviewemail",
-    "url": "https://wuub.net",
-    "follows": "",
-    "programmingLanguage": [
-      "Python"
-    ]
-  },
-  {
-    "image": "",
-    "name": "MrKnow",
-    "additionalName": "mrknow",
-    "worksFor": "Filmkodi",
-    "homeLocation": "Poland",
-    "url": "http://filmkodi.com",
-    "programmingLanguage": [
-      "Python"
     ]
   },
   {
@@ -196,75 +266,6 @@
     "programmingLanguage": [
       "Python",
       "C++"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Wojtek Porczyk",
-    "additionalName": "woju",
-    "worksFor": "InvisibleThingsLab(@QubesOS@InvisibleThingsLab)",
-    "homeLocation": "Poland",
-    "url": "https://oaza.woju.eu/",
-    "follows": "",
-    "programmingLanguage": [
-      "Python",
-      "TeX",
-      "Java",
-      "Vim script"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Micha\u0142 Dobrzanski",
-    "additionalName": "MichalDanielDobrzanski",
-    "worksFor": "Demant",
-    "homeLocation": "Warsaw,Poland",
-    "email": "Signintoviewemail",
-    "programmingLanguage": [
-      "Kotlin",
-      "Python",
-      "Java",
-      "C++"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Mateusz Paprocki",
-    "additionalName": "mattpap",
-    "homeLocation": "Wroc\u0142aw,Poland",
-    "email": "Signintoviewemail",
-    "follows": "",
-    "programmingLanguage": [
-      "JavaScript",
-      "Python",
-      "Scala"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Micha\u0142 Sidor",
-    "additionalName": "michcioperz",
-    "homeLocation": "Warsaw,Poland",
-    "url": "https://michcioperz.com",
-    "twitter": "@Michcioperz",
-    "follows": "",
-    "programmingLanguage": [
-      "Go",
-      "Python",
-      "HTML"
-    ]
-  },
-  {
-    "image": "",
-    "name": "Maciej Szulik",
-    "additionalName": "soltysh",
-    "worksFor": "RedHat,Inc",
-    "homeLocation": "Poland",
-    "follows": "",
-    "programmingLanguage": [
-      "Go",
-      "Python",
-      "HTML"
     ]
   }
 ]

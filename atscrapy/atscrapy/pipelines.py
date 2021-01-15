@@ -25,7 +25,7 @@ class AtscrapyPipeline:
         self.file.close()
 
     def process_item(self, item, spider):
-        if isinstance(item, items.SchemaOrgPerson):
+        if isinstance(item, items.SchemaOrgPerson) or isinstance(item, items.GoogleSearchResult):
             self.resources.append(item.__dict__['_values'])
 
         return item

@@ -119,3 +119,56 @@ focus on how to scrape a web resources and what to do with scrapped resources, m
 save it to some text file. **But I highly recommend to learn xpath and css rules/syntax**.
 Both are supported by scrapy, it is a way how You ask for data in DOM and how You traverse
 the data, and this is critical when You write spider logic to scrape web sites.
+
+6. **Using search engine to obtain links**, so google.com is a search engine
+it is scrapping the web all the time, we will use it to get linkedin url for
+person which interest us. So it is very important that url is correct as it 
+linkedin is blocking requests very quickly if we want to scrape more we need
+to use external tool, it would take us too much time to create reliable
+solution, I recommend proxycrawl.com, we will use it as proxy API, we specify
+url and proxycrawl is doing the scrapping.
+
+- 6.1 **After scrapping github and google** this is what we have:
+```json
+  {
+    "link": "https://www.linkedin.com/in/igormiazek/",
+    "data": {
+      "image": "",
+      "name": "Igor Miazek",
+      "additionalName": "IOR88",
+      "worksFor": "",
+      "homeLocation": "Remote",
+      "url": "https://www.linkedin.com/in/igormiazek/",
+      "follows": "",
+      "programmingLanguage": [
+        "Python",
+        "R",
+        "Jupyter Notebook"      
+      ]
+    }
+  } 
+```  
+
+- 6.2 **Above results where achived with** for github.com we have used
+this query **location:Remote language:Python** and for google.com we have
+used this query **:site www.linkedin.com/in/ Name Surname**. For query for
+github returned us information about it people who specialize in Python
+technology and works remotely, than for each person returned from query we
+have discovered linkedin address with google search.
+
+- 6.3 **You can do the above by Yourself**, try to this: Go to https://github.com/search and copy paste this **location:Remote language:Python language:R language:"Jupyter Notebook"** I am not sure on which page my user will show because abuse mechanism was 
+triggered when I was searching on pages. Than try to run this in https://google.com/search
+**:site www.linkedin.com/in Igor Miazek**
+
+- 6.4. **Why to scrape if I can do it manually?** Because of automation I say. You
+are looking for best suited candidates and You want to speed this process as much as
+possible in order to not waist time for talking with wrong people. With scrapping
+You can quickly specify location, technologies, followers, user activity on github
+for example maybe relevant.
+
+
+The end, I hope You have enjoyed the tutorial, if You will be interesting about 
+knowing more let me know, we could continue with proxycrawl.com 
+https://www.scrapinghub.com/scrapy-cloud/, scrapy-cloud is great because You
+don't need to take care about server and infrastructure, You just write the code for
+spider and scrapy-cloud does the rest.

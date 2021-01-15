@@ -31,7 +31,8 @@ class SchemaOrgPerson(scrapy.Item):
 
 
 class GoogleSearchResult(scrapy.Item):
-    pass
+    link = scrapy.Field()
+    data = scrapy.Field()
 
 
 SCHEMA_ORG_TYPES = {

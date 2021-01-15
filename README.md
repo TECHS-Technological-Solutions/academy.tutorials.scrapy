@@ -92,11 +92,17 @@ change IP address each time the linkedin test(captcha) is forced.
 
 
 ## development
+Install scrapy
+```bash
+pip install scrapy
+```
 ##### Run github spider. It will create GithubSearchSpider.json
 ```bash
-scrapy runspider atscrapy/spiders/github_search_spider.py -a location=Poland -a language=Python
+scrapy runspider ./atscrapy/spiders/github_search_spider.py -a location=Poland -a language=Python
 ```
 
-##### Run linkedin extraction based on data from GithubSearchSpider.json.
-
-##### Get additional information from google search
+##### Run linkedin web address extraction based on data from GithubSearchSpider.json.
+Below spider will use GithubSearchSpider.json and produce new one GoogleSearchSpider.json
+```bash
+scrapy runspider ./atscrapy/atscrapy/spiders/google_search_spider.py -a site=www.linkedin.com/in
+```

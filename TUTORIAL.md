@@ -58,7 +58,7 @@ with data and remember about others, some web sites expose publicly data about
 people, treat this data in a way that You would like somebody else treats data
 about Yourself.
 
-- 3.1. **robots.txt**
+- 4.1. **robots.txt**
 A robots.txt file is a set of rules how web page should be scrapped, 
 it define which areas should be scrapped and how often.
 "Despite the use of the terms "allow" and "disallow", 
@@ -68,6 +68,8 @@ https://en.wikipedia.org/wiki/Robots_exclusion_standard
 5. **Open Source** the solution to this tutorial example is 
 here https://github.com/TECHS-Technological-Solutions/academy.tutorials.scrapy, but as You already reading it I guess You
 found it :)
+
+![High Level Blueprint](./diagrams-High-Level-Blueprint.png)
 
 - 5.1. **github.com spider with scrapy**, I think that
 technical recruitment start with technology, I know how it sounds.
@@ -80,11 +82,11 @@ https://github.com/search?q=location%3Arussia, it works similar
 as https://google.com/search, You can ask for data in a defined way
 and scrap this information.
 
-Github has search syntax which allow You to narrow the results.
-1. https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/about-searching-on-github
-2. https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/searching-users
+- 5.2 Github has search syntax which allow You to narrow the results.
+- 1. https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/about-searching-on-github
+- 2. https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/searching-users
 
-The nice thing is, that each individual use webpage as this
+- 5.3 The nice thing is, that each individual use webpage as this
 https://github.com/IOR88 obey the http://schema.org/ vocabulary,
 we can find there this schema http://schema.org/Person and 
 what is better scrapy knows how to handle that. In scrapy we
@@ -106,14 +108,12 @@ class SchemaOrgPerson(scrapy.Item):
     follows = scrapy.Field()
     twitter = scrapy.Field()
     programmingLanguage = scrapy.Field()
-```
-So above data is available on mentioned github page and we can
-scrape it.
-
-The spider logic is available here:
+``` 
+- So above data is available on mentioned github page and we can
+scrape it. The spider logic is available here:
 **academy.tutorials.scrapy/atscrapy/atscrapy/spiders/github_search_spider.py**
 
-- 5.2. **How much python I need to know**, not too much, scrapy is nice
+- 5.4. **How much python I need to know**, not too much, scrapy is nice
 because it is a framework it gives already structures You can work with, You mainly
 focus on how to scrape a web resources and what to do with scrapped resources, maybe
 save it to some text file. **But I highly recommend to learn xpath and css rules/syntax**.

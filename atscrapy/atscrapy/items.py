@@ -30,6 +30,10 @@ class SchemaOrgPerson(scrapy.Item):
     programmingLanguage = scrapy.Field()
 
 
+class GoogleSearchResult(scrapy.Item):
+    pass
+
+
 SCHEMA_ORG_TYPES = {
     SchemaOrgPerson.schemaorg: SchemaOrgPerson
 }
